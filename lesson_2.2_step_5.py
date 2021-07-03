@@ -22,6 +22,6 @@ checkbox.click()
 r_button = browser.find_element_by_css_selector("[for='robotsRule']")
 r_button.click()
 
-button = browser.find_element_by_class_name("btn")
-button.click()
+button = browser.find_element_by_class_name("btn").click()
+#button.click()
 
